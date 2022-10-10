@@ -1,0 +1,140 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center ;
+    margin-top: 150px;
+}
+
+.div1{
+    background-color: hsl(213, 19%, 18%);
+    /* border: 1px solid white; */
+    border-radius: 12px;
+    display: inline;
+    text-align: center;
+    height: 240px;
+    width: 270px;
+   
+    
+}
+
+.img{
+ 
+    border-radius: 50%;
+    width: 29px;
+    margin-top: 15px;
+    margin-right: 205px;
+    margin-bottom: 8px;
+}
+
+.how{
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-right: 82px;
+    margin-top: 7px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.long{
+    color: white;
+    font-size: 8px;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    line-height: 15px;
+    text-align: left;
+    margin-left: 18px;
+    font-size: 8.5px;
+}
+
+.buttons{
+    margin-left: 2px;
+}
+
+.button-number{
+    background-color: hsl(215, 12%, 54%);
+    color: white;
+    border-radius: 50%;
+    border: 0;
+    margin-top: 6.5px;
+    margin-right: 9px;
+    padding: 8px 14px;
+    opacity: 0.6;
+}
+
+.button-number:hover{
+    opacity: 1;
+}
+
+.button-number:active{
+    background-color:hsl(25, 97%, 53%);
+}
+
+.submit{
+    border-radius: 12px;
+    border: 0; 
+    padding-right: 95px;
+    padding-left: 95px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 15px;
+    color: white;
+    background-color:hsl(25, 97%, 53%);
+    letter-spacing: 1.5px;
+    font-size: 10px;
+}
+
+.submit:active{
+    background-color:white;
+    color:hsl(25, 97%, 53%);
+}
+
+.div2{
+    background-color: hsl(213, 19%, 18%);
+    /* border: 1px solid white; */
+    border-radius: 12px;
+    display: inline;
+    text-align: center;
+    height: 260px;
+    width: 300px;
+    visibility: hidden;
+}
+
+.rating{
+    background-color: hsl(215, 16%, 30%);
+    display: inline-block;
+    opacity: 1;
+    color:hsl(25, 97%, 53%);
+    margin-top: 100px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 12px;
+    letter-spacing: 1px;
+    font-size: x-small;
+
+}
+
+.thank{
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+   
+}
+
+.last{
+    color: white;
+    opacity: 0.3;
+    text-align: left;
+    font-size: 12.5px;
+    margin-left: 27px;
+    line-height: 18px;
+   margin-top: 8px;
+}
